@@ -317,7 +317,7 @@ NSInteger const alertButtonHeight = 50;
     //新建画布
     alertCanvas                     = [UIView new];
     alertCanvas.center              = CGPointMake(self.center.x, self.center.y - 20);
-    alertCanvas.bounds              = CGRectMake(0, 0, alertStyleWith - 60, alertStyleWith / 1.5);
+    alertCanvas.bounds              = CGRectMake(0, 0, alertStyleWith / 1.23, alertStyleWith / 1.5);
     alertCanvas.backgroundColor     = [UIColor whiteColor];
     alertCanvas.layer.cornerRadius  = 10;
     alertCanvas.layer.shadowColor   = [UIColor blackColor].CGColor;
